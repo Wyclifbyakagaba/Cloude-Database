@@ -87,7 +87,7 @@ Go to the Firebase Console and create a project.
 
 ### 2. Enable Cloud Firestore
 
-Open the Firebase project and create a Cloud Firestore database.
+Open the Firebase project and create a Cloud Firestore database,
 
 ### 3. Create a service account
 
