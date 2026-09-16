@@ -6,23 +6,25 @@ The **FUMU Sports Cloud Athlete Manager** is a Python application that manages a
 
 The application demonstrates how a cloud database can be used to store, retrieve, search, update, and delete athlete records.
 
-## Module
+1. Module
 
 **Cloud Databases**
 
-## Project
+2. Project
 
 **FUMU Sports Cloud Athlete Manager**
 
-## Technologies
+3.Technologies
 
 * Python
 * Google Firebase
 * Cloud Firestore
 * Firebase Admin SDK
 * Git and GitHub
+* Zoom video recorder 
+* YOutube video social media uploader
 
-## Features
+4. Features
 
 The application provides the following CRUD operations:
 
@@ -32,7 +34,7 @@ The application provides the following CRUD operations:
 4. **Update Athlete** – Changes information belonging to an existing athlete.
 5. **Delete Athlete** – Removes an athlete from the database.
 
-## Database
+5. Database
 
 The application uses **Google Cloud Firestore**.
 
@@ -54,7 +56,7 @@ phone
 email
 ```
 
-## Project Structure
+6. Project Structure
 
 ```text
 FUMU-Cloud-Athlete-Manager/
@@ -69,7 +71,7 @@ FUMU-Cloud-Athlete-Manager/
 
 > `serviceAccountKey.json` contains private Firebase credentials. It must never be uploaded to GitHub.
 
-## Requirements
+7. Requirements
 
 Install Python 3.10 or newer.
 
@@ -79,7 +81,7 @@ Install the required Firebase package:
 pip install -r requirements.txt
 ```
 
-## Firebase Setup
+8. Firebase Setup
 
 ### 1. Create a Firebase project
 
@@ -109,7 +111,7 @@ serviceAccountKey.json
 
 Place it in the same folder as `main.py`.
 
-### 4. Protect the credentials
+9. Protect the credentials
 
 The credentials are excluded using `.gitignore`.
 
@@ -119,7 +121,7 @@ Never commit this file:
 serviceAccountKey.json
 ```
 
-## Installation
+10. Installation
 
 Create a virtual environment:
 
@@ -139,7 +141,7 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
-## Running the Application
+11.Running the Application
 
 Start the program with:
 
@@ -162,7 +164,7 @@ The application displays a menu similar to:
 0. Exit
 ```
 
-## CRUD Operations
+12.CRUD Operations
 
 ### Create
 
@@ -214,7 +216,13 @@ Before submitting the project, test:
 * [ ] Invalid input does not crash the application.
 * [ ] Firebase credentials are not committed to GitHub.
 
-## Security
+
+14.Video link:
+:https://youtube.com/shorts/mIlbmr_PBvk?si=boDZ0ahRSkepPNQG
+zoom :2026-09-15 19.23.51 Mr sooda Wyclif's Zoom Meeting
+<audio controls src="audio1913869618.m4a" title="Title"></audio> <video controls src="video1913869618.mp4" title="Title"></video>
+
+15.Security
 
 The Firebase service account key is private.
 
@@ -226,7 +234,7 @@ serviceAccountKey.json
 
 It is included in `.gitignore` so Git does not upload it.
 
-## Learning Outcome
+20.Learning Outcome
 
 This project demonstrates practical use of a cloud database by connecting a Python application to Firebase Cloud Firestore and implementing Create, Read, Update, and Delete operations.
 
